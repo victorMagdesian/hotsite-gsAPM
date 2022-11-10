@@ -1,0 +1,67 @@
+.header {
+    background-color: darkslategrey;
+    height: 100px;
+}
+
+.pre-nav-bar {
+    background-color: slategray;
+    height: 30px;
+}
+
+.nav-bar {
+    position: relative;
+    margin: 0 auto;
+    width: 420px;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.imagem-drone-menu-inicial {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo-pre-nav-bar {
+    color: aliceblue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 9%;
+}
+
+.bloco-body-principal {
+    color: aliceblue;
+    width: 950px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+}
+
+.novo-topico {
+    margin-top: 50px;
+}
+
+.img-mapa-rio {
+    max-width: 450px;
+}
+
+.hovered-btn {
+    color: blue;
+}
+
+body {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+

@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="pre-nav-bar">
+        <a class="titulo-pre-nav-bar" href="./index.html">Entregas via drone</a>
+      </div>
+      <div class="nav-bar">
+        <ul>
+          <li><a class="servicos-btn" href="./servicos.html">Serviços</a></li>
+          <li>
+            <a class="locais-btn" href="./locais.html">locais atendidos</a>
+          </li>
+          <li>
+            <a class="valores-btn" href="./valores.html"
+              >valores e benefícios</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <img
+      class="imagem-drone-menu-inicial"
+      src="./assets/drone.jpg"
+      alt="foto de drone"
+    />
+  </body>
+  <script>
+    var servicosBtn = document.getElementsByClassName("servicos-btn");
+    var locaisBtn = document.getElementsByClassName("locais-btn");
+    var valorBtn = document.getElementsByClassName("valores-btn");
+
+    servicosBtn[0].addEventListener("mouseover", function () {
+      servicosBtn[0].classList.add("hovered-btn");
+    });
+
+    servicosBtn[0].addEventListener("mouseleave", function () {
+      servicosBtn[0].classList.remove("hovered-btn");
+    });
+
+    locaisBtn[0].addEventListener("mouseover", function () {
+      locaisBtn[0].classList.add("hovered-btn");
+    });
+
+    locaisBtn[0].addEventListener("mouseleave", function () {
+      locaisBtn[0].classList.remove("hovered-btn");
+    });
+
+    valorBtn[0].addEventListener("mouseover", function () {
+      valorBtn[0].classList.add("hovered-btn");
+    });
+
+    valorBtn[0].addEventListener("mouseleave", function () {
+      valorBtn[0].classList.remove("hovered-btn");
+    });
+  </script>
+</html>

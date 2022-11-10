@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="pre-nav-bar">
+        <a class="titulo-pre-nav-bar" href="./index.html">Entregas via drone</a>
+      </div>
+      <div class="nav-bar">
+        <ul>
+          <li><a class="servicos-btn" href="./servicos.html">Serviços</a></li>
+          <li>
+            <a class="locais-btn" href="./locais.html">locais atendidos</a>
+          </li>
+          <li>
+            <a class="valores-btn" href="./valores.html"
+              >valores e benefícios</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="bloco-body-principal">
+      <p>ENTREGA SUPER FLASH:</p>
+      <p>
+        A entrega super flash é perfeita para você que não consegue controlar a
+        ansiedade para receber a sua encomenda, com esse metodo seu pedido vai
+        estar na porta da sua casa em até 2 horas.
+      </p>
+      <p>Sujeito a indisponibilidade sob grandes distancias.</p>
+
+      <p class="novo-topico">ENTREGA FLASH:</p>
+      <p>
+        Com a entrega flash seu pedido vai estar na porta da sua casa no mesmo
+        dia que foi enviado.
+      </p>
+      <p class="novo-topico">ENTREGA PADRÃO:</p>
+      <p>
+        Com a entrega padrão seu pedido vai estar na porta da sua casa em até 3
+        dias após o envio.
+      </p>
+    </div>
+  </body>
+  <script>
+    var servicosBtn = document.getElementsByClassName("servicos-btn");
+    var locaisBtn = document.getElementsByClassName("locais-btn");
+    var valorBtn = document.getElementsByClassName("valores-btn");
+
+    servicosBtn[0].addEventListener("mouseover", function () {
+      servicosBtn[0].classList.add("hovered-btn");
+    });
+
+    servicosBtn[0].addEventListener("mouseleave", function () {
+      servicosBtn[0].classList.remove("hovered-btn");
+    });
+
+    locaisBtn[0].addEventListener("mouseover", function () {
+      locaisBtn[0].classList.add("hovered-btn");
+    });
+
+    locaisBtn[0].addEventListener("mouseleave", function () {
+      locaisBtn[0].classList.remove("hovered-btn");
+    });
+
+    valorBtn[0].addEventListener("mouseover", function () {
+      valorBtn[0].classList.add("hovered-btn");
+    });
+
+    valorBtn[0].addEventListener("mouseleave", function () {
+      valorBtn[0].classList.remove("hovered-btn");
+    });
+  </script>
+</html>
